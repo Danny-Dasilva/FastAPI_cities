@@ -11,7 +11,6 @@ from tortoise.models import Model
 
 app = FastAPI()
 
-
 session = None
 
 @app.on_event('startup')
